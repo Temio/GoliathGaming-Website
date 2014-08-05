@@ -145,6 +145,26 @@ a:hover {
 	content: "\f060";
 }
 
+
+.border-for-column{
+	border-color:#555555;
+	border-width:2px;
+	border-radius:3px;
+	border-style:solid;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 .column-left{
 
 
@@ -153,8 +173,8 @@ a:hover {
 	padding-right:15px;
 	min-height:1px;
 	display:block;
-	background:black;
 	float:left;
+	
 
 }
 
@@ -166,16 +186,17 @@ a:hover {
 	padding-right:15px;
 	min-height:1px;
 	display:block;
-	background:red;
 	float:right;
+	
 }
 
 @media (min-width:992px) .column-right .column-left{
 
 	float:left;
-
-
+	
 }
+
+
 h4{
 
 	font-size:1.4em;
@@ -195,4 +216,13 @@ h4{
 	padding-bottom:5px;
 	margin:10px 0px 5px;
 
+}
+
+.upcoming{
+
+	background:black;
+
+	border-width:2px;
+
+	border-radius:3px;
 }
